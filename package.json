@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server.js",
-    "start:prod": "cross-env NODE_ENV=production node server.js",
+    "start:prod": "NODE_ENV=production node server.js",
     "seed:superadmin": "cross-env NODE_ENV=development node scripts/seedSuperadmin.js"
   },
   "keywords": [],
